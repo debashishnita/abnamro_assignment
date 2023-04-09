@@ -1,0 +1,7 @@
+com\menu\recipe\service\RecipeService.class
+com\menu\recipe\controller\RecipeController.class
+com\menu\recipe\repository\RecipeRepository.class
+com\menu\recipe\service\RecipeServiceImpl.class
+com\menu\recipe\exception\ResourceNotFoundException.class
+com\menu\recipe\RecipeApplication.class
+com\menu\recipe\data\Recipe.class
