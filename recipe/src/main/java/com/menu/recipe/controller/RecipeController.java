@@ -73,7 +73,7 @@ public class RecipeController {
 
 	public Optional<List<Recipe>> getRecipes(@RequestParam(name = "name", required = false) String name,
 			@RequestParam(name = "vegetarian", required = false) String vegetarian,
-			@RequestParam(name = "servingSize", required = false) Integer servingSize,
+			@RequestParam(name = "servingSize", required = false ,defaultValue ="0") Integer servingSize,
 			@RequestParam(name = "instructions", required = false) String instructions,
 			@RequestParam(name = "ingredients", required = false) String ingredients) {
 		return recipeService.searchRecipes(name, vegetarian, servingSize, instructions, ingredients);
